@@ -5,12 +5,20 @@
     <parent>
         <artifactId>multi-module-center</artifactId>
         <groupId>com.jsoft.demo</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>${multi-module-center.version}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>multi-module-app</artifactId>
+    <version>${multi-module-app.version}</version>
     <packaging>jar</packaging>
+    
+    <dependencies>
+        <dependency>
+            <groupId>com.jsoft.demo</groupId>
+            <artifactId>multi-module-biz</artifactId>
+        </dependency>
+    </dependencies>
 
 
 </project>

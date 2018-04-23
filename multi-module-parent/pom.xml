@@ -6,12 +6,56 @@
 
     <groupId>com.jsoft.demo</groupId>
     <artifactId>multi-module-parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>${multi-module-parent.version}</version>
     <packaging>pom</packaging>
     <modules>
         <module>multi-module-common</module>
         <module>multi-module-center</module>
     </modules>
+    
+    <properties>
+        <!-- compile -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.7</java.version>
+        <maven-compiler-plugin.version>3.6.1</maven-compiler-plugin.version>
+        <!-- local -->
+        <multi-module-parent.version>1.0-SNAPSHOT</multi-module-parent.version>
+        <multi-module-common.version>1.0-SNAPSHOT</multi-module-common.version>
+        <multi-module-center.version>1.0-SNAPSHOT</multi-module-center.version>
+        <multi-module-biz.version>1.0-SNAPSHOT</multi-module-biz.version>
+        <multi-module-app.version>1.0-SNAPSHOT</multi-module-app.version>
+        <multi-module-webapp.version>1.0-SNAPSHOT</multi-module-webapp.version>
+    </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.jsoft.demo</groupId>
+                <artifactId>multi-module-common</artifactId>
+                <version>${multi-module-common.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.jsoft.demo</groupId>
+            <artifactId>multi-module-common</artifactId>
+        </dependency>
+    </dependencies>
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin.version}</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
