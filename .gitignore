@@ -14,3 +14,11 @@ multi-module-parent/multi-module-common/multi-module-common.iml
 multi-module-parent/.idea/encodings.xml
 multi-module-parent/.idea/artifacts/multi_module_center_webapp_war.xml
 multi-module-parent/.idea/artifacts/multi_module_center_webapp_war_exploded.xml
+multi-module-parent/.idea/multi-module-parent.iml
+multi-module-parent/.idea/dictionaries/jim.xml
+multi-module-parent/.idea/inspectionProfiles/Project_Default.xml
+multi-module-parent/multi-module-center/multi-module-center-app/target/classes/com/jsoft/demo/app/Main.class
+multi-module-parent/multi-module-center/multi-module-center-biz/target/classes/com/jsoft/demo/biz/Service.class
+multi-module-parent/multi-module-center/multi-module-center-common/target/classes/com/jsoft/demo/center/common/BizTools.class
+multi-module-parent/multi-module-center/multi-module-center-webapp/target/classes/com/jsoft/demo/webapp/Main.class
+multi-module-parent/multi-module-common/target/classes/com/jsoft/demo/common/Tools.class
