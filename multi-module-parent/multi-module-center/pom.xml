@@ -13,17 +13,23 @@
     <version>${multi-module-center.version}</version>
     <packaging>pom</packaging>
     <modules>
-        <module>multi-module-biz</module>
-        <module>multi-module-app</module>
-        <module>multi-module-webapp</module>
+        <module>multi-module-center-biz</module>
+        <module>multi-module-center-app</module>
+        <module>multi-module-center-webapp</module>
+        <module>multi-module-center-common</module>
     </modules>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>com.jsoft.demo</groupId>
-                <artifactId>multi-module-biz</artifactId>
-                <version>${multi-module-biz.version}</version>
+                <artifactId>multi-module-center-biz</artifactId>
+                <version>${multi-module-center-biz.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jsoft.demo</groupId>
+                <artifactId>multi-module-center-common</artifactId>
+                <version>${multi-module-center-common.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

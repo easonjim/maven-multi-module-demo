@@ -23,9 +23,10 @@
         <multi-module-parent.version>1.0-SNAPSHOT</multi-module-parent.version>
         <multi-module-common.version>1.0-SNAPSHOT</multi-module-common.version>
         <multi-module-center.version>1.0-SNAPSHOT</multi-module-center.version>
-        <multi-module-biz.version>1.0-SNAPSHOT</multi-module-biz.version>
-        <multi-module-app.version>1.0-SNAPSHOT</multi-module-app.version>
-        <multi-module-webapp.version>1.0-SNAPSHOT</multi-module-webapp.version>
+        <multi-module-center-common.version>1.0-SNAPSHOT</multi-module-center-common.version>
+        <multi-module-center-biz.version>1.0-SNAPSHOT</multi-module-center-biz.version>
+        <multi-module-center-app.version>1.0-SNAPSHOT</multi-module-center-app.version>
+        <multi-module-center-webapp.version>1.0-SNAPSHOT</multi-module-center-webapp.version>
     </properties>
 
     <dependencyManagement>
