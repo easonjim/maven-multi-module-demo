@@ -13,7 +13,7 @@ public class Tools {
      * 
      * @param msg 输出的信息
      */
-    public static void print(String msg) {
+    public static void println(String msg) {
         System.out.println(msg);
     }
 }

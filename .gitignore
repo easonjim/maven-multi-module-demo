@@ -1,0 +1,13 @@
+multi-module-parent/.idea/compiler.xml
+multi-module-parent/.idea/misc.xml
+multi-module-parent/.idea/modules.xml
+multi-module-parent/.idea/qaplug_profiles.xml
+multi-module-parent/.idea/vcs.xml
+multi-module-parent/.idea/artifacts/multi_module_webapp_war.xml
+multi-module-parent/.idea/artifacts/multi_module_webapp_war_exploded.xml
+multi-module-parent/multi-module-parent.iml
+multi-module-parent/multi-module-center/multi-module-center.iml
+multi-module-parent/multi-module-center/multi-module-app/multi-module-app.iml
+multi-module-parent/multi-module-center/multi-module-biz/multi-module-biz.iml
+multi-module-parent/multi-module-center/multi-module-webapp/multi-module-webapp.iml
+multi-module-parent/multi-module-common/multi-module-common.iml
