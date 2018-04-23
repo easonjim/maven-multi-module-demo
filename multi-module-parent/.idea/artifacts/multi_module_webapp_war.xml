@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="multi-module-webapp:war">
+    <output-path>$PROJECT_DIR$/multi-module-center/multi-module-webapp/target</output-path>
+    <root id="archive" name="multi-module-webapp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="multi-module-webapp:war exploded" />
+    </root>
+  </artifact>
+</component>
