@@ -75,7 +75,7 @@ Maven多模块项目样例以及构建教程
 1、multi-module-common为公共项目，但去除了parent节点，好处在于引用了这个公共模块的子项目，只需要install这个项目之后，在子项目直接编译打包，而无需install整个parent项目。但是随着而来的缺点也被暴露，比如全局的依赖配置无法使用、全局的参数配置无法使用等，参考：http://www.cnblogs.com/EasonJim/p/8303917.html  
 2、针对上面的特点，可以使用Maven提供的命令在父项目下编译指定子模块，但不编译其它项目：  
 ```java
-mvn clean compile -pl multi-module-center/multi-module-biz -am
+mvn clean compile -pl multi-module-center/multi-module-center-biz -am
 ```
 参考：http://www.cnblogs.com/EasonJim/p/8350560.html  
 3、如果在Jenkins上进行构建，可能还会触发其它子项目的构建，此时需要这样配置一下：http://www.cnblogs.com/EasonJim/p/8350578.html  
